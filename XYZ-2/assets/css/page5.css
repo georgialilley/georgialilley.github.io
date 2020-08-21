@@ -1,0 +1,77 @@
+.mada {
+	font-size: 30vw;
+	font-family: arial;
+	font-weight: bold;
+	animation: fontcolor 10s infinite;
+	text-align: right;
+	padding-top: 20px;
+	padding-right: 50px;
+}
+
+@keyframes fontcolor {
+	0% {
+		color: blue;
+		transform: skew(30deg);
+	}
+	50% {
+		color: aqua;
+		transform: skew(-30deg);
+	}
+	100% {
+		color: blue;
+		transform: skew(30deg);
+	}
+}
+
+.phrase1 {
+	font-size: 50px;
+	font-family: times;
+	font-style: italic;
+	padding: 25px;
+	width: 300px;
+	background-color: palegreen;
+	margin-bottom: 30px;
+	margin-top: 80px;
+}
+
+.phrase2 {
+	font-size: 50px;
+	font-family: times;
+	font-style: italic;
+	padding: 25px;
+	width: 400px;
+	background-color: palegreen;
+	margin-bottom: 30px;
+}
+
+.phrase3 {
+	font-size: 50px;
+	font-family: times;
+	font-style: italic;
+	padding: 25px;
+	width: 500px;
+	background-color: palegreen;
+	margin-bottom: 30px;
+}
+
+.date {
+	font-size: 50px;
+	font-family: times;
+	font-style: italic;
+	padding: 25px;
+	width: 500px;
+	background-color: palegreen;
+	margin-bottom: 30px;
+	text-align: right;
+}
+
+.title {
+	font-size: 50px;
+	font-family: times;
+	font-style: italic;
+	padding: 25px;
+	width: 500px;
+	background-color: palegreen;
+	margin-bottom: 30px;
+	text-align: right;
+}

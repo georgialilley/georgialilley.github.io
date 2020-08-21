@@ -1,0 +1,191 @@
+.phrase1 {
+	font-family: arial black;
+	font-style: italic;
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	background-color: red;
+	width: 900px;
+	padding: 10px;
+	padding-bottom: 20px;
+	/*border: 5px red;*/
+	margin-left: 150px;
+	margin-top: 80px;
+	animation: redone 4s infinite;
+}
+
+/*@keyframes redone {
+	0% {
+		background-color: red;
+	}
+	50% {
+		background-color: white;
+	}
+	100% {
+		background-color: red;
+	}
+}*/
+
+.phrase2 {
+	font-family: arial black;
+	font-style: italic;
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	background-color: blue;
+	width: 900px;
+	padding: 10px;
+	padding-bottom: 20px;
+/*	border: 5px blue;*/
+	margin-left: 150px;
+	margin-top: 80px;
+	animation: bluetwo 4s infinite;
+}
+
+/*@keyframes bluetwo {
+	0% {
+		background-color: white;
+	}
+	50% {
+		background-color: blue;
+	}
+	100% {
+		background-color: white;
+	}
+}*/
+
+.phrase3 {
+	font-family: arial black;
+	font-style: italic;
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	background-color: aqua;
+	width: 900px;
+	padding: 10px;
+	padding-bottom: 20px;
+	/*border: 5px aqua;*/
+	margin-left: 150px;
+	margin-top: 80px;
+	animation: aquaone 4s infinite;
+}
+
+/*@keyframes aquaone {
+	0% {
+		background-color: aqua;
+	}
+	50% {
+		background-color: white;
+	}
+	100% {
+		background-color: aqua;
+	}
+}*/
+
+.phrase4 {
+	font-family: arial black;
+	font-style: italic;
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	background-color: red;
+	width: 900px;
+	padding: 10px;
+	padding-bottom: 20px;
+	/*border: 5px red;*/
+	margin-left: 150px;
+	margin-top: 80px;
+	animation: redtwo 4s infinite;
+}
+
+/*@keyframes redtwo {
+	0% {
+		background-color: white;
+	}
+	50% {
+		background-color: red;
+	}
+	100% {
+		background-color: white;
+	}
+}*/
+
+.phrase5 {
+	font-family: arial black;
+	font-style: italic;
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	background-color: blue;
+	width: 900px;
+	padding: 10px;
+	padding-bottom: 20px;
+	/*border: 5px blue;*/
+	margin-left: 150px;
+	margin-top: 80px;
+	animation: blueone 4s infinite;
+}
+
+/*@keyframes blueone {
+	0% {
+		background-color: blue;
+	}
+	50% {
+		background-color: white;
+	}
+	100% {
+		background-color: blue;
+	}
+}*/
+
+.phrase6 {
+	font-family: arial black;
+	font-style: italic;
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	background-color: aqua;
+	width: 900px;
+	padding: 10px;
+	padding-bottom: 20px;
+	/*border: 5px aqua;*/
+	margin-left: 150px;
+	margin-top: 80px;
+	animation: aquatwo 4s infinite;
+}
+
+/*@keyframes aquatwo {
+	0% {
+		background-color: white;
+	}
+	50% {
+		background-color: aqua;
+	}
+	100% {
+		background-color: white;
+	}
+}*/
+
+.date {
+	font-family: courier;
+	font-size: 50px;
+	color: red;
+	text-align: left;
+	padding-top: 100px;
+}
+
+.mada {
+	font-family: courier;
+	font-size: 50px;
+	color: red;
+	text-align: left;
+	padding-top: 10px;
+}
+
+.title {
+	font-family: courier;
+	font-size: 50px;
+	color: red;
+	text-align: left;
+	padding-top: 10px;
+}

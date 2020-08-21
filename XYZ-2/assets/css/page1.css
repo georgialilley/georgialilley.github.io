@@ -1,0 +1,76 @@
+.mada {
+	font-family: arial black;
+	padding: 30px;
+	text-align: center;
+	color: yellow;
+	background-color: blue;
+	font-size: 250px;
+	letter-spacing: 50px;
+}
+
+.phrase1 {
+	font-family: times;
+	font-style: italic;
+	font-size: 40px;
+	text-align: left;
+	padding: 20px;
+	text-align: center;
+	color: fuchsia;
+	animation: banner 5s infinite;
+}
+
+@keyframes banner {
+	0% {
+		text-align: left;
+	}
+	50% {
+		text-align: center;
+	}
+	100% {
+		text-align: right;
+	}
+}
+
+.date {
+	font-family: arial black;
+	padding: 30px;
+	text-align: center;
+	color: white;
+	background-color: limegreen;
+	font-size: 200px;
+	letter-spacing: 20px;
+}
+
+.phrase2 {
+	font-family: times;
+	font-style: italic;
+	font-size: 40px;
+	text-align: left;
+	padding: 20px;
+	text-align: center;
+	color: fuchsia;
+	animation: phrase 5s infinite;
+}
+
+@keyframes phrase {
+	0% {
+		text-align: right;
+	}
+	50% {
+		text-align: center;
+	}
+	100% {
+		text-align: left;
+	}
+}
+
+.title1 {
+	font-family: arial black;
+	padding: 50px;
+	text-align: center;
+	color: yellow;
+	background-color: blue;
+	font-size: 120px;
+}
+
+

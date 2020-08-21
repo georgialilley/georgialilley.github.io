@@ -1,0 +1,27 @@
+.bg {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 150px;
+	text-align: center;
+}
+
+.banner {
+	font-family: times;
+	font-style: italic;
+	font-size: 150px;
+	text-align: center;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	background-color: yellow;
+}
+
+.mada {
+	font-family: arial;
+	font-size: 200px;
+	color: red;
+	transform: rotate(25deg);
+	margin-top: -250px;
+	margin-left: 320px;
+	filter:blur(8px);
+}
