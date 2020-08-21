@@ -1,0 +1,66 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 60px;
+	text-align: center;
+}
+
+a {
+	color:red;
+}
+
+
+.date {
+	font-family: times;
+	font-style: italic;
+	text-align: left;
+	font-size: 80px;
+	color: white;
+	background-color: lightblue;
+	padding-top: 30px;
+	padding-left: 30px;
+}
+
+.title {
+	font-family: times;
+	font-style: italic;
+	text-align: left;
+	font-size: 80px;
+	color: white;
+	background-color: lightblue;
+	padding-left: 30px;
+}
+
+.mada {
+	font-family: times;
+	font-style: italic;
+	text-align: left;
+	font-size: 80px;
+	color: steelblue;
+	background-color: lightblue;
+	padding-left: 30px;
+	padding-bottom: 30px;
+}
+
+.message1 {
+	font-family: times;
+	text-align: right;
+	font-size: 120px;
+	padding-top: 50px;
+	padding-right: 30px;
+	background-color: steelblue;
+	padding-bottom: 25px;
+	color: white;
+}
+
+.message2 {
+	font-family: times;
+	text-align: right;
+	font-size: 120px;
+	padding-right: 30px;
+	padding-top: 25px;
+	color: steelblue;
+}
+
+
+
+

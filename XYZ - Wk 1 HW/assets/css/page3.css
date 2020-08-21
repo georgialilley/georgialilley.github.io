@@ -1,0 +1,77 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 60px;
+	text-align: center;
+	background-color: darkorange;
+	color: blanchedalmond;
+}
+
+a {
+	color:red;
+}
+
+
+.line1 {
+	padding-top: 100px;
+	font-family: times;
+	font-style: italic;
+}
+
+.line2 {
+	font-family: times;
+	font-style: italic;
+}
+
+.line3 {
+	font-family: times;
+	font-style: italic;
+}
+
+.line4 {
+	font-family: times;
+	padding-bottom: 100px;
+	font-style: italic;
+}
+
+
+.mada {
+	font-family: times;
+	background-color: blanchedalmond;
+	color: steelblue;
+	text-align: right;
+	padding-right: 30px;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+.date {
+	font-family: times;
+	background-color: steelblue;
+	color: blanchedalmond;
+	text-align: left;
+	padding-top: 50px;
+	padding-left: 30px;
+	padding-bottom: 50px;
+}
+
+.title1 {
+	font-family: times;
+	text-align: right;
+	background-color: blanchedalmond;
+	color: steelblue;
+	padding-right: 30px;
+}
+
+.title2 {
+	font-family: times;
+	text-align: right;
+	background-color: blanchedalmond;
+	color: steelblue;
+	padding-right: 30px;
+	padding-bottom: 50px;
+}
+
+
+
+
+

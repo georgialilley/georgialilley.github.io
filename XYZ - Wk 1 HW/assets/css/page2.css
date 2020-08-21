@@ -1,0 +1,51 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 60px;
+	text-align: center;
+}
+
+a {
+	color:red;
+}
+
+
+.date {
+	font-size: 300px;
+	color: lemonchiffon;
+	padding: 100px;
+	background-color: tomato;
+}
+
+.title {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: lemonchiffon;
+	color: lightsalmon;
+	font-size: 180px;
+}
+
+.mada {
+	color: lemonchiffon;
+	padding: 50px;
+	background-color: darkolivegreen;
+	letter-spacing: 20px;
+	font-size: 180px;
+}
+
+.message1 {
+	padding-top: 180px;
+	padding-bottom: 5px;
+	background-color: lemonchiffon;
+	font-style: italic;
+	color: lightsalmon;
+	font-size: 50px;
+}
+
+.message2 {
+	padding-bottom: 180px;
+	background-color: lemonchiffon;
+	font-style: italic;
+	color: darkolivegreen;
+	font-size: 50px;
+}
+
