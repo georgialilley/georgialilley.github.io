@@ -1,25 +1,28 @@
+body {
+	background-color: black;
+}
+
 .mada {
-	font-size: 30vw;
+	font-size: 10vw;
 	font-family: arial;
 	font-weight: bold;
-	animation: fontcolor 10s infinite;
+	animation: fontcolor 20s infinite;
 	text-align: right;
 	padding-top: 20px;
-	padding-right: 50px;
+	padding-right: 20px;
+	letter-spacing: 40px;
+	color: tomato;
 }
 
 @keyframes fontcolor {
 	0% {
-		color: blue;
-		transform: skew(30deg);
+		transform: skew(180deg);
 	}
 	50% {
-		color: aqua;
-		transform: skew(-30deg);
+		transform: skew(-180deg);
 	}
 	100% {
-		color: blue;
-		transform: skew(30deg);
+		transform: skew(180deg);
 	}
 }
 
@@ -28,10 +31,16 @@
 	font-family: times;
 	font-style: italic;
 	padding: 25px;
-	width: 300px;
-	background-color: palegreen;
+	width: 250px;
+	text-align: center;
+	color: white;
+	background-color: cadetblue;
 	margin-bottom: 30px;
 	margin-top: 80px;
+	position: fixed;
+	top: 150px;
+	left: 100px;
+	transform: rotate(-20deg);
 }
 
 .phrase2 {
@@ -39,9 +48,15 @@
 	font-family: times;
 	font-style: italic;
 	padding: 25px;
-	width: 400px;
-	background-color: palegreen;
+	width: 350px;
+	background-color: white;
 	margin-bottom: 30px;
+	text-align: center;
+	color: green;
+	position: fixed;
+	top: 350px;
+	left: 300px;
+	transform: rotate(10deg);
 }
 
 .phrase3 {
@@ -49,29 +64,41 @@
 	font-family: times;
 	font-style: italic;
 	padding: 25px;
-	width: 500px;
-	background-color: palegreen;
+	width: 300px;
+	background-color: darkseagreen;
 	margin-bottom: 30px;
+	text-align: center;
+	color: darkslategrey;
+	position: fixed;
+	top: 500px;
+	left: 200px;
+	transform: rotate(-5deg);
 }
 
 .date {
-	font-size: 50px;
-	font-family: times;
-	font-style: italic;
-	padding: 25px;
-	width: 500px;
-	background-color: palegreen;
-	margin-bottom: 30px;
+	font-size: 5vh;
+	font-family: arial;
+	font-style: bold;
+	letter-spacing: 40px;
 	text-align: right;
+	padding-right: 20px;
+	color: white;
 }
 
 .title {
-	font-size: 50px;
+	font-size: 5vh;
+	font-family: arial;
+	text-align: right;
+	padding-right: 50px;
+	color: white;
+	padding-top: 450px;
+}
+
+.poster {
+	font-size: 7vh;
 	font-family: times;
 	font-style: italic;
-	padding: 25px;
-	width: 500px;
-	background-color: palegreen;
-	margin-bottom: 30px;
 	text-align: right;
+	padding-right: 20px;
+	color: white;
 }
