@@ -1,4 +1,4 @@
-.title {
+.name {
 	font-size: 10vh;
 	font-family: times;
 	font-style: italic;
@@ -10,21 +10,29 @@
 	margin-bottom: 30px;
 	margin-top: 80px;
 	position: fixed;
-	top: 50px;
+	top: 30px;
 	left: 50px;
 	transform: rotate(-12deg);
 }
 
 .course {
-	font-size: 6vh;
-	font-family: arial;
+	font-size: 400px;
+	font-family: Arial;
+	color: black;
+	text-align: left;
+	padding: 20px;
+}
+
+.year {
+	font-size: 8vh;
+	font-family: arial black;
 	font-style: bold;
 	padding: 4vh;
-	width: 30vw;
+	width: 18vw;
 	border-radius: 50%;
 	text-align: center;
-	color: orchid;
-	border: 10px solid orchid;
+	color: gold;
+	border: 20px solid yellow;
 	margin-bottom: 30px;
 	margin-top: 80px;
 	position: fixed;
@@ -36,23 +44,22 @@
 .link1 {
 	font-size: 5vh;
 	font-family: courier;
-	/*font-style: italic;*/
 	padding: 25px;
 	width: 30vw;
 	text-align: center;
 	color: white;
-	background-color: gold;
+	background-color: orchid;
 	margin-bottom: 30px;
 	margin-top: 80px;
 	position: fixed;
-	top: 350px;
-	right: 500px;
+	top: 260px;
+	right: 350px;
 	transform: rotate(5deg);
 }
 
 .sem {
 	font-size: 6vh;
-	font-family: arial;
+	font-family: arial black;
 	font-style: bold;
 	padding: 4vh;
 	width: 30vw;
@@ -63,15 +70,14 @@
 	margin-bottom: 30px;
 	margin-top: 80px;
 	position: fixed;
-	top: 600px;
+	top: 370px;
 	left: 150px;
-	transform: rotate(-8deg);
+	transform: rotate(-6deg);
 }
 
 .link2 {
 	font-size: 15vh;
 	font-family: arial;
-	/*font-style: italic;*/
 	padding: 25px;
 	width: 7vw;
 	height: 7vw;
@@ -81,7 +87,36 @@
 	margin-bottom: 30px;
 	margin-top: 80px;
 	position: fixed;
-	top: 650px;
-	right: 100px;
-	/*transform: rotate(5deg);*/
+	top: 450px;
+	right: 120px;
 }
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: yellow;
+}
+
+.column {
+	font-family: courier;
+	font-size: 60px;
+	color: black;
+	background-color: black;
+	display: inline-block;
+	text-align: center;
+	margin: 10px;
+	padding: 40px;
+	width: 48%;
+}
+
+
+
+
+
+
