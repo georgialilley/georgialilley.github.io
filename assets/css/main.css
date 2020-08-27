@@ -1,9 +1,87 @@
-body {
-	font-family: Helvetica,Arial,sans-serif;
-	font-size: 32px;
+.title {
+	font-size: 10vh;
+	font-family: times;
+	font-style: italic;
+	padding: 25px;
+	width: 50vw;
+	text-align: center;
+	color: white;
+	background-color: limegreen;
+	margin-bottom: 30px;
+	margin-top: 80px;
+	position: fixed;
+	top: 50px;
+	left: 50px;
+	transform: rotate(-12deg);
 }
 
-a {
-	color:red;
+.course {
+	font-size: 6vh;
+	font-family: arial;
+	font-style: bold;
+	padding: 4vh;
+	width: 30vw;
+	border-radius: 50%;
+	text-align: center;
+	color: orchid;
+	border: 10px solid orchid;
+	margin-bottom: 30px;
+	margin-top: 80px;
+	position: fixed;
+	top: 100px;
+	right: 50px;
+	transform: rotate(5deg);
 }
 
+.link1 {
+	font-size: 5vh;
+	font-family: courier;
+	/*font-style: italic;*/
+	padding: 25px;
+	width: 30vw;
+	text-align: center;
+	color: white;
+	background-color: gold;
+	margin-bottom: 30px;
+	margin-top: 80px;
+	position: fixed;
+	top: 350px;
+	right: 500px;
+	transform: rotate(5deg);
+}
+
+.sem {
+	font-size: 6vh;
+	font-family: arial;
+	font-style: bold;
+	padding: 4vh;
+	width: 30vw;
+	border-radius: 50%;
+	text-align: center;
+	color: blue;
+	border: 30px solid blue;
+	margin-bottom: 30px;
+	margin-top: 80px;
+	position: fixed;
+	top: 600px;
+	left: 150px;
+	transform: rotate(-8deg);
+}
+
+.link2 {
+	font-size: 15vh;
+	font-family: arial;
+	/*font-style: italic;*/
+	padding: 25px;
+	width: 7vw;
+	height: 7vw;
+	text-align: center;
+	color: white;
+	background-color: aqua;
+	margin-bottom: 30px;
+	margin-top: 80px;
+	position: fixed;
+	top: 650px;
+	right: 100px;
+	/*transform: rotate(5deg);*/
+}
