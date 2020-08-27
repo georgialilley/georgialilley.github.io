@@ -11,13 +11,13 @@
 	/*border: 5px red;*/
 	margin-left: 150px;
 	margin-top: 80px;
-	animation: redone 4s infinite;
+	animation: redone 1s infinite;
 }
 
 /*@keyframes redone {
 	0% {
 		background-color: red;
-	}
+	} 
 	50% {
 		background-color: white;
 	}
@@ -189,3 +189,58 @@
 	text-align: left;
 	padding-top: 10px;
 }
+
+.date2 {
+	font-family: courier;
+	font-size: 50px;
+	color: red;
+	text-align: left;
+	padding-top: 10px;
+	opacity: 60%;
+}
+
+.mada2 {
+	font-family: courier;
+	font-size: 50px;
+	color: red;
+	text-align: left;
+	padding-top: 10px;
+	opacity: 60%;
+}
+
+.title2 {
+	font-family: courier;
+	font-size: 50px;
+	color: red;
+	text-align: left;
+	padding-top: 10px;
+	opacity: 60%;
+}
+
+.date3 {
+	font-family: courier;
+	font-size: 50px;
+	color: red;
+	text-align: left;
+	padding-top: 10px;
+	opacity: 30%;
+}
+
+.mada3 {
+	font-family: courier;
+	font-size: 50px;
+	color: red;
+	text-align: left;
+	padding-top: 10px;
+	opacity: 30%;
+}
+
+.title3 {
+	font-family: courier;
+	font-size: 50px;
+	color: red;
+	text-align: left;
+	padding-top: 10px;
+	opacity: 30%;
+}
+

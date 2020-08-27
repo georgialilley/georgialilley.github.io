@@ -16,7 +16,7 @@
 	padding: 20px;
 	text-align: center;
 	color: fuchsia;
-	animation: banner 5s infinite;
+	animation: banner 3s linear infinite;
 }
 
 @keyframes banner {
@@ -49,7 +49,7 @@
 	padding: 20px;
 	text-align: center;
 	color: fuchsia;
-	animation: phrase 5s infinite;
+	animation: phrase 3s linear infinite;
 }
 
 @keyframes phrase {
