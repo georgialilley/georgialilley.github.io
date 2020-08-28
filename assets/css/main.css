@@ -91,15 +91,15 @@
 	right: 120px;
 }
 
-a:link {
+a:link a {
   color: white;
 }
 
-a:visited {
+a:visited a {
   color: white;
 }
 
-a:hover {
+a:hover a {
   color: yellow;
 }
 
