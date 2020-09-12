@@ -1,0 +1,179 @@
+body {
+	font-size: 21px;
+	font-family: arial;
+}
+
+.sidebar {
+	width: 30%;
+	height: 103vh;
+	position: fixed;
+	left: 0;
+	top: 0;
+	overflow: scroll;
+	/*background-color: peachpuff;*/
+	background-color: wheat;
+}
+
+.main {
+	width: 70%;
+	height: 103vh;
+	position: fixed;
+	top: 0;
+	right: 0;
+	overflow: scroll;
+}
+
+.container {
+	display: flex;
+	flex-wrap:wrap;
+}
+
+.item {
+	width:50%;
+	padding: 5vh;
+	/*border: 1px solid black;*/
+	/*margin-top: 10vh;*/
+}
+
+.nav {
+	width:30%;
+	padding:20px;
+	position:fixed;
+	bottom: :0px;
+	display: stack;
+	/*flex-wrap:wrap;*/
+	/*justify-content: space-around;*/
+	/*margin-right: 1vw;*/
+	text-align: center;
+	right: 70vw;
+
+}
+
+.btn {
+	/*border:1px solid black;*/
+	padding:1.5vh;
+	border-radius: 10px;
+	margin: 2vh;
+	text-transform: uppercase;
+	font-size: 2vh;
+	letter-spacing: 0.1vw;
+	background-color: orange;
+	color: white;
+	opacity: 60%
+}
+
+.btn:hover {
+	opacity: 100%;
+/*	transition: 0.5s;*/
+	cursor: pointer;
+}
+
+.btn:active {
+	opacity: 100%;
+	background-color: white;
+	color: orange;
+}
+
+.title {
+	font-family: arial black;
+	font-size: 10vh; 
+	bottom: 50vh;
+	text-align: right;
+	color: orange;
+	line-height: 13vh;
+}
+
+.about {
+	width:70%;
+	height: 103vh;
+	padding:5vh;
+	background-color: black;
+	position:fixed;
+	top:0px;
+	right:0px;
+	margin-right: -50%;
+	transition: 2s;
+	opacity: 0%;
+}
+
+.about.active {
+	margin-left: 30%;
+	transition: 2s;
+	background-color: black;
+	opacity: 100%;
+}
+
+/* index css */
+
+.demo-menu {
+	margin-left:10px;
+	margin-top:10px;
+}
+
+
+/* Make sure to add transition:2s; */
+
+.smile {
+	width:150px;
+	height:150px;
+	margin:10px;	
+	background-color: gray;
+}
+
+/*Add background color, and then transition:2s; */
+
+.smile:hover {
+
+}
+
+.box {
+	width:150px;
+	height:150px;
+	margin:10px;
+	background-color:red;
+}
+
+
+.slide {
+	width:50%;
+	height: 100vh;
+	padding:10px;
+	background-color: yellow;
+	position:fixed;
+	top:0px;
+	right:0px;
+}
+
+/* add a .active, then make it specific to the element that is active ie.
+.box.active or .slide.active or .alert.active  */
+
+
+.alert {
+	width:200px;
+	padding:20px;
+	position:fixed;
+	top:50px;
+	left:400px;
+	box-shadow:10px 10px 10px gray;
+	background-color: yellow;
+}
+
+
+
+
+/* image css */
+
+
+
+
+
+
+/*try adding some specific widths such as .item.small or .item.large  */
+
+
+.item img {
+	width: 100%;
+}
+
+/*Add .item .hide */
+

@@ -1,0 +1,52 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+}
+
+a {
+	color:red;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-around;
+	font-size: 32px;
+	flex-wrap: wrap;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%
+}
+
+.btn {
+	border: 1px solid black;
+	border-radius:10px;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+.title {
+	margin-top: 50vh
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-end;
+}
+
+.item {
+	width: 33.33%;
+	padding: 30px;
+	background-color: black;
+	color: yellow;
+}
+
+.item img {
+	max-width: 100%;
+	display: block;
+}
+
+.footer {
+
+}
