@@ -1,28 +1,20 @@
 $(document).ready(function(){
 	console.log('hello world');
 
-	$('.btn-about').click(function(){
-		$('.about').addClass('active');
+	$('.bttn-about').click(function(){
+		$('.about').toggleClass('active');
+	}); 
+
+	$('.bttn-filt').click(function(){
+		$('.filter').toggleClass('active');
 	});
 
-	$('.close').click(function(){
-		$('.about').addClass('hide');
-	});
-
-	$('.btn-cat').click(function(){
-		$('.nav').addClass('active');
-	});
-
-	$('.btn-return').click(function(){
-		$('.nav').addClass('return');
-	});
-
-	$('.btn-art').click(function(){
-		$('.artists').toggleClass('active');
+	$('.bttn-create').click(function(){
+		$('.create').toggleClass('active');
 	});	
 
-	$('.btn-info').click(function(){
-		$('.info').toggleClass('active');
+	$('.bttn-more').click(function(){
+		$('.more').toggleClass('active');
 	});
 
 	$('.btn-dist').click(function(){
