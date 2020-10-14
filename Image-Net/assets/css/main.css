@@ -32,10 +32,6 @@ body {
 	cursor: pointer;
 }
 
-.bttn:active {
-	color: yellow;
-}
-
 .bttn-dp {
 	text-decoration: none;
 	color: white;
@@ -95,6 +91,38 @@ body {
 	transform: skew(-4deg);
 }
 
+/*ABOUT TAB*/
+
+.about {
+	width:70%;
+	height: 90vh;
+	padding:3vw;
+	background-color: black;
+	color: white;
+	position:fixed;
+	top:6vh;
+	right:-75vw;
+	transition: 2s;
+	z-index: 1;
+}
+
+.about.active {
+	transition: 2s;
+	top:6vh;
+	right:0px;
+}
+
+.header {
+	text-align: left;
+	font-size: 4vh;
+	padding-bottom: 2vw;
+}
+
+.body {
+	text-align: left;
+	font-size: 3vh;
+}
+
 /*FILTER TAB*/
 
 .filter {
@@ -132,10 +160,6 @@ body {
 	font-family: arial;
 }
 
-.btn-reset {
-	color: white;
-}
-
 .btn:hover {
 	cursor: pointer;
 	color: yellow;
@@ -153,7 +177,7 @@ body {
 	padding-bottom: 2vh;
 	text-transform: uppercase;
 	letter-spacing: 0.1vw;
-	color: darkslategray;
+	color: white;
 }
 
 .btn-reset {
@@ -164,37 +188,7 @@ body {
 	text-decoration: none;
 }
 
-/*ABOUT TAB*/
-
-.about {
-	width:70%;
-	height: 90vh;
-	padding:3vw;
-	background-color: black;
-	color: white;
-	position:fixed;
-	top:6vh;
-	right:-75vw;
-	transition: 2s;
-	z-index: 1;
-}
-
-.about.active {
-	transition: 2s;
-	top:6vh;
-	right:0px;
-}
-
-.header {
-	text-align: left;
-	font-size: 4vh;
-	padding-bottom: 2vw;
-}
-
-.body {
-	text-align: left;
-	font-size: 3vh;
-}
+/*MORE TAB*/
 
 .more {
 	width:70%;
