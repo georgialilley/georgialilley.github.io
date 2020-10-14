@@ -32,6 +32,10 @@ body {
 	cursor: pointer;
 }
 
+.bttn:active {
+	color: yellow;
+}
+
 .bttn-dp {
 	text-decoration: none;
 	color: white;
@@ -79,6 +83,19 @@ body {
 	background-color: black;
 	border-right: 0.2vw solid white;
 }
+
+.title {
+	font-family: arial black;
+	font-size: 8vh; 
+	text-align: left;
+	margin-left: 2vw;
+	margin-top: 11vh;
+	color: white;
+	filter: blur(0.3vh);
+	transform: skew(-4deg);
+}
+
+/*FILTER TAB*/
 
 .filter {
 	width:35vw;
@@ -147,18 +164,7 @@ body {
 	text-decoration: none;
 }
 
-.title {
-	font-family: arial black;
-	/*font-style: italic;*/
-	font-size: 8vh; 
-	text-align: left;
-/*	line-height: 10vh;*/
-	margin-left: 2vw;
-	margin-top: 11vh;
-	color: white;
-	filter: blur(0.3vh);
-	transform: skew(-4deg);
-}
+/*ABOUT TAB*/
 
 .about {
 	width:70%;
@@ -190,25 +196,6 @@ body {
 	font-size: 3vh;
 }
 
-/*.create {
-	width:70%;
-	height: 103vh;
-	padding:3vw;
-	background-color: black;
-	color: white;
-	position:fixed;
-	top:6vh;
-	right:-75vw;
-	transition: 2s;
-	z-index: 2;
-}
-
-.create.active {
-	transition: 2s;
-	top:6vh;
-	right:0px;
-}*/
-
 .more {
 	width:70%;
 	height: 103vh;
@@ -239,6 +226,7 @@ body {
 	top: 7vh;
 	right: 0;
 	overflow: scroll;
+	background-color: black;
 }
 
 .container {
