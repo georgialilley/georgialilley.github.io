@@ -15,24 +15,26 @@ body {
 	flex-wrap:wrap;
 	justify-content: space-around;
 	z-index: 4;
-	background-color: yellowgreen;
+	background-color: black;
 }
 
 .bttn {
-	width: 20%;
-	border-bottom: 0.2vw solid black;
-	padding: 1vw;
+	width: 25%;
+	border-bottom: 0.2vw solid white;
+	padding: 1.2vw;
 	text-align: center;
+	color: white;
+	font-size: 2.5vh;
 }
 
 .bttn:hover {
 	font-style: italic;
-	color: white;
 	cursor: pointer;
 }
 
 .bttn-dp {
 	text-decoration: none;
+	color: white;
 }
 
 /*FOOTER (BOTTOM BAR)*/
@@ -46,15 +48,16 @@ body {
 	flex-wrap:wrap;
 	justify-content: space-around;
 	z-index: 5;
-	background-color: yellowgreen;
+	background-color: black;
 }
 
 .note {
 	width: 50%;
-	border-top: 0.2vw solid black;
-	padding: 0.8vw;
-	font-family: courier;
+	border-top: 0.2vw solid white;
+	padding: 1.2vw;
+	font-family: arial;
 	font-size: 2.5vh;
+	color: white;
 }
 
 .note-name {
@@ -73,25 +76,27 @@ body {
 	position: fixed;
 	left: 0;
 	top: 0;
-	background-color: white;
-	border-right: 0.2vw solid black;
+	background-color: black;
+	border-right: 0.2vw solid white;
 }
 
 .filter {
 	width:35vw;
 	height: 35vh;
-	background-color: violet;
+	background-color: cadetblue;
 	transform: rotate(-7deg);
 	position:fixed;
 	top: 60vh;
 	right: 105vw;
 	display: flex;
 	flex-wrap:wrap;	
-	padding: 7vh;
+	padding-right: 7vh;
 	z-index: 6;
-	border: 0.2vw solid black;
+	border: 0.2vw solid white;
 	padding-left: 15vh;
 	transition: 2s;
+	padding-top:3vh;
+	padding-bottom:3vh;
 }
 
 .filter.active {
@@ -101,13 +106,13 @@ body {
 }
 
 .btn {
-	padding: 1.5vh;
 	text-transform: uppercase;
 	font-size: 2vh;
 	letter-spacing: 0.1vw;
 	color: black;
 	width: 50%;
 	text-align: center;
+	font-family: arial;
 }
 
 .btn-reset {
@@ -123,18 +128,36 @@ body {
 	color: white;
 }
 
+.filt-header {
+	text-align: center;
+	width: 100%;
+	font-family: arial;
+	font-size: 2.5vh;
+	padding-bottom: 2vh;
+	text-transform: uppercase;
+	letter-spacing: 0.1vw;
+	color: darkslategray;
+}
+
+.btn-reset {
+	width: 100%;
+}
+
 .a:link {
 	text-decoration: none;
 }
 
 .title {
-	font-family: courier;
+	font-family: arial black;
 	/*font-style: italic;*/
 	font-size: 8vh; 
 	text-align: left;
 /*	line-height: 10vh;*/
 	margin-left: 2vw;
-	margin-top: 10vh;
+	margin-top: 11vh;
+	color: white;
+	filter: blur(0.3vh);
+	transform: skew(-4deg);
 }
 
 .about {
@@ -144,7 +167,7 @@ body {
 	background-color: black;
 	color: white;
 	position:fixed;
-	top:7vh;
+	top:6vh;
 	right:-75vw;
 	transition: 2s;
 	z-index: 1;
@@ -152,7 +175,7 @@ body {
 
 .about.active {
 	transition: 2s;
-	top:7vh;
+	top:6vh;
 	right:0px;
 }
 
@@ -167,14 +190,14 @@ body {
 	font-size: 3vh;
 }
 
-.create {
+/*.create {
 	width:70%;
 	height: 103vh;
 	padding:3vw;
 	background-color: black;
 	color: white;
 	position:fixed;
-	top:7vh;
+	top:6vh;
 	right:-75vw;
 	transition: 2s;
 	z-index: 2;
@@ -182,9 +205,9 @@ body {
 
 .create.active {
 	transition: 2s;
-	top:7vh;
+	top:6vh;
 	right:0px;
-}
+}*/
 
 .more {
 	width:70%;
@@ -193,7 +216,7 @@ body {
 	background-color: black;
 	color: white;
 	position:fixed;
-	top:7vh;
+	top:6vh;
 	right:-75vw;
 	transition: 2s;
 	z-index: 3;
@@ -201,7 +224,7 @@ body {
 
 .more.active {
 	transition: 2s;
-	top:7vh;
+	top:6vh;
 	right:0px;
 }
 
@@ -211,7 +234,7 @@ body {
 
 .main {
 	width: 70%;
-	height: 88vh;
+	height: 90vh;
 	position: fixed;
 	top: 7vh;
 	right: 0;
@@ -221,15 +244,28 @@ body {
 .container {
 	display: flex;
 	flex-wrap:wrap;
+	background-color: black;
+	padding-bottom: 3vh;
 }
 
 .item {
 	width:33%;
 	padding: 5vh;
+	font-family: courier;
+	font-size: 2vh;
+	text-align: center;
+	color: white;
+	filter: grayscale(100);
+	line-height: 3vh;
 }
 
 .item img {
 	width: 100%;
+}
+
+.item:hover {
+	filter: none;
+	transition: 0.2s;
 }
 
 .item.hide {
