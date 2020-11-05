@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-	font-size: 15.2vh;
+	font-size: 16vh;
 	text-align: center;
 	font-family: lft-etica-compressed, sans-serif;
 	color: blue;
@@ -33,7 +33,7 @@ h4 {
 	text-align: right;
 	margin-right: 2vw;
 	margin-top: 2vh;
-	margin-bottom: 10vh;
+	margin-bottom: 15vh;
 	color: blue;
 	font-family: arial;
 	font-size: 2.5vh;
@@ -119,10 +119,11 @@ h4 {
 .full {
 	margin-left: 15vw;
 	margin-right: 15vw;
+	margin-top: 3vh;
 }
 
 .end {
-	margin-left: 15vw;
+	margin-left: 32.5vw;
 	margin-right: 32.5vw;
 	margin-top: 5vh;
 }
