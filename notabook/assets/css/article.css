@@ -1,0 +1,375 @@
+body {
+	font-size: 3vh;
+	font-family: arial;
+}
+
+h1 {
+	font-size: 15vh;
+	text-align: center;
+	font-family: lft-etica-compressed, sans-serif;
+	color: blue;
+	margin-bottom: 2vh;
+}
+
+h2 {
+	text-align: left;
+	margin-left: 15vw;
+	margin-top: 2vh;
+	color: blue;
+	font-family: arial;
+	font-size: 2.5vh;
+}
+
+h3 {
+	text-align: center;
+	color: blue;
+	font-family: arial;
+	font-size: 3vh;
+	margin-top: 25vh;
+	margin-bottom: 20vh;
+}
+
+h4 {
+	text-align: right;
+	margin-right: 3vw;
+	margin-top: 4vh;
+	margin-bottom: 15vh;
+	color: blue;
+	font-family: arial;
+	font-size: 2.5vh;
+}
+
+.title {
+	text-align: right;
+	margin-right: 3vw;
+	margin-top: 3vh;
+}
+
+.plus {
+	font-size: 30vh;
+	position: fixed;
+	top: -40px;
+	left: 40px;	
+}
+
+.plus.active {
+	display: none;
+}
+
+.plus:hover {
+	cursor: pointer;
+}
+
+.minus {
+	display: none;
+}
+
+.minus.active {
+	font-size: 30vh;
+	position: fixed;
+	top: -40px;
+	left: 40px;	
+	color: blue;
+}
+
+.options {
+	position: fixed;
+	bottom: 0px;
+	left: -40vw;
+	transition: 1s;
+}
+
+.options.active {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	transition: 1s;
+}
+
+.tab {
+	text-align: left;
+	padding: 2vh;
+	margin-left: 2vw;
+	color: blue;
+	font-size: 15vh;
+	text-align: center;
+	font-family: lft-etica-compressed, sans-serif;
+	margin-bottom: 2vh;
+}
+
+.note1 {
+	visibility: hidden;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	width: 28vw;
+	color: black;
+	font-family: lft-etica, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 3vh;
+	line-height: 3.5vh;
+	text-align: left;
+	margin: 5vh;
+}
+
+.note1.active {
+	visibility: visible;
+}
+
+.note2 {
+	visibility: hidden;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	width: 28vw;
+	color: black;
+	font-family: lft-etica, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 3vh;
+	line-height: 3.5vh;
+	text-align: left;
+	margin: 5vh;
+}
+
+.note2.active {
+	visibility: visible;
+}
+
+.note3 {
+	visibility: hidden;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	width: 28vw;
+	color: black;
+	font-family: lft-etica, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 3vh;
+	line-height: 3.5vh;
+	text-align: left;
+	margin: 5vh;
+}
+
+.note3.active {
+	visibility: visible;
+}
+
+.point {
+	padding-bottom: 2vh; 
+}
+
+.button {
+	color: blue;
+	position: fixed;
+	left: 2vw;
+	top: 3vh;
+	font-size: 5vh;
+	font-family: lft-etica, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+}
+
+.intro {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 2vh;
+	margin-left: 15vw;
+	margin-right: 15vw;
+}
+
+.sidenote {
+	font-family: lft-etica, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 4vh;
+	line-height: 4.5vh;
+	text-indent: 5vw;
+}
+
+.middleleft {
+	margin-top: 5vh;
+	margin-left: 15vw;
+	margin-right: 50vw;
+}
+
+.middle {
+	margin-left: 51vw;
+	margin-right: 15vw;
+	margin-top: -27vh;
+}
+
+.w1of2 {
+	width: 50%;
+}
+
+.text {
+	font-family: lft-etica, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 3vh;
+	line-height: 3.5vh;
+	text-indent: 5vw;
+}
+
+.pullquote {
+	font-family: lft-etica, sans-serif;
+	font-weight: 600;
+	font-style: italic;
+	color: blue;
+	font-size: 4vh;
+	line-height: 5vh;
+}
+
+.one {
+	margin-left: 15vw;
+	margin-right: 32.5vw;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+}
+
+.two {
+	margin-left: 32.5vw;
+	margin-right: 15vw;
+	margin-top: 8vh;
+	margin-bottom: 8vh;
+}
+
+.centre {
+	margin-left: 32.5vw;
+	margin-right: 32.5vw;
+	margin-bottom: 3vh;
+}
+
+.slab {
+	margin-left: 32.5vw;
+	margin-right: 15vw;
+	margin-bottom: 10vh;
+}
+
+.full {
+	margin-left: 15vw;
+	margin-right: 15vw;
+	margin-top: 3vh;
+}
+
+.end {
+	margin-left: 32.5vw;
+	margin-right: 32.5vw;
+	margin-top: 5vh;
+}
+
+.banner {
+	width: 100%;
+}
+
+.pic1 {
+
+}
+
+.pic2 {
+
+}
+
+img {
+	width: 70%;
+	margin-left: 15vw;
+	margin-bottom: 5vh;
+}
+
+a:link {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: none;
+	cursor: pointer;
+	color: black;
+}
+
+a:active {
+	text-decoration: none;
+	color: black;
+}
+
+.button:hover {
+	cursor: pointer;
+}
+
+.bttn-close:hover {
+	cursor: pointer;
+}
+
+.sidebar {
+	height: 100vh;
+	width: 30vw;
+	background-color: gainsboro;
+	top: 0px;
+	left: -35vw;
+	position: fixed;
+	padding: 3vh;
+	transition: 1s;
+}
+
+.sidebar.active {
+	top: 0px;
+	left: 0px;
+	transition: 1s;
+}
+
+.bttn-close {
+	color: blue;
+	font-family: arial;
+	font-size: 2.5vh;
+	text-align: right;
+	margin-top: 1vh;
+	margin-bottom: 18vh;
+}
+
+.bttn {
+	font-family: lft-etica, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 3.5vh;
+	line-height: 4.5vh;
+}
+
+.bttn-about {
+	margin-bottom: 8vh;
+}
+
+.btn {
+	font-family: lft-etica-condensed, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 3.5vh;
+	line-height: 4.5vh;
+	padding-top: 3vh;
+}
+
+.art {
+	font-family: lft-etica, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 3.5vh;
+	line-height: 4.5vh;
+	padding-bottom: 3vh;
+	border-bottom: 1px solid black;
+}
+
+.art3 {
+	border: none;
+}
+
+
+
+
+

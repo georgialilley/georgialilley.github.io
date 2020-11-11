@@ -91,13 +91,6 @@ p {
 	transition: 1.5s;
 }
 
-.container {
-	display: flex;
-	flex-wrap: wrap;
-	margin-left: 2vw;
-	margin-top: 33vh;
-}
-
 a:link {
 	text-decoration: none;
 	color: black;
@@ -123,6 +116,82 @@ a:active {
 	font-size: 13vh;
 	margin-right: 2vw;
 }
+
+.space {
+	height: 15vh;
+}
+
+
+
+/*IMAGERY & CONTENT*/
+img {
+	filter: grayscale(100%);
+}
+
+img:hover {
+	filter: none;
+	transition: 0.5s;
+}
+
+.row {
+/*  height: 50vh;*/
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  width: 33.3%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.vbottom {
+  align-items: flex-end;
+}
+
+.vtop {
+  align-items: flex-start;
+}
+
+.vcenter {
+  align-items: center;
+}
+
+.hcenter {
+  justify-content: center;
+}
+
+.hright {
+  justify-content: flex-end;
+}
+
+.hleft {
+  justify-content: flex-start;
+}
+
+.row1 {
+	margin-bottom: 20vh;
+}
+
+.col1 {
+	border: black 1px solid;
+}
+
+.col2 {
+	border: black 1px solid;
+}
+
+.col3 {
+	border: black 1px solid;
+}
+
+
 
 
 
