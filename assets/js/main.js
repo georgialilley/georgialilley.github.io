@@ -9,4 +9,8 @@ $(document).ready(function(){
 		$('.sidebar').removeClass('active');
 	}); 
 
+	$('.heading').hover(function(){
+		$('.caption').toggleClass('active');
+	}); 
+
 });	

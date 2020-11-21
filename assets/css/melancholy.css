@@ -16,10 +16,9 @@ h1 {
 h2 {
 	font-family: freight-text-pro, serif;
 	font-weight: 400;
-	font-style: italic;
 	font-size: 5vh;
 	text-align: left;
-	margin-top: 32vh;
+	margin-top: 25vh;
 	margin-left: 2.5vw;
 }
 
@@ -29,6 +28,58 @@ h3 {
 	width: 62%;
 	margin-left: 2vw;
 	margin-top: 3vh;
+}
+
+h4 {
+	font-family: freight-text-pro, serif;
+	font-weight: 400;
+	font-size: 4.5vh;
+	display: table;
+    margin: 0 auto;
+    margin-bottom: 10vh;
+}
+
+.heading {
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.dynamic {
+	margin-top: 4vh;
+	margin-left: 2vw;
+	width: 5%;
+	height: 5%;
+	animation-name: spin;
+  	animation-duration: 5000ms;
+  	animation-iteration-count: infinite;
+  	animation-timing-function: linear; 
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+.caption {
+	width: 40%;
+	transition: 3s;
+	font-size: 4vh;
+	margin-left: 2vw;
+	margin-top: 2vh;
+	position: fixed;
+	top: 13vh;
+	left: -50vw;
+}
+
+.caption.active {
+	transition: 1.5s;
+	top: 13vh;
+	left: 0.3vw;
 }
 
 .bttn-close {
@@ -46,11 +97,12 @@ p {
 	font-family: freight-text-pro, serif;
 	font-weight: 400;
 	font-style: normal;	
-	font-size: 3vh;
+	font-size: 2.5vh;
 	line-height: 3.5vh;
 	margin-left: 2.5vw;
 	margin-right: 2.5vw;
 	margin-top: 2vh;
+	margin-bottom: 3vh;
 }
 
 .bttn-about {
@@ -90,7 +142,7 @@ p {
 }
 
 .sidebar {
-	background-color: peachpuff;
+	background-color: black;
 	height: 100vh;
 	width: 33%;
 	position: fixed;
@@ -98,12 +150,11 @@ p {
 	right: -50vw;
 	transition: 1.5s;
 	z-index: 100;
+	color: white;
+	overflow: scroll;
 }
 
 .sidebar.active {
-	background-color: peachpuff;
-	height: 100vh;
-	width: 33%;
 	position: fixed;
 	top: 0vh;
 	right: 0vw;
@@ -144,12 +195,13 @@ a:active {
 
 /*IMAGERY & CONTENT*/
 img {
-	filter: grayscale(100%) contrast(70%);
+	filter: grayscale(100%);
+	display: block;
+ 	width: 100%;
 }
 
 img:hover {
-	filter: contrast(50%);
-	transition: 1s;
+	filter: none;
 }
 
 .row {
@@ -164,11 +216,6 @@ img:hover {
   display: flex;
   flex-wrap: wrap;
   /*border: black 1px solid;  */
-}
-
-img {
-  display: block;
-  width: 100%;
 }
 
 .vbottom {
@@ -209,6 +256,14 @@ img {
 	margin-bottom: -25vh;
 	margin-right: -5vw;
 	z-index: 2;
+}
+
+.black {
+	filter: contrast(0.75);	
+}
+
+.black:hover {
+	filter: contrast(1);
 }
 
 .im3 {
@@ -350,7 +405,7 @@ img {
 }
 
 .row6 {
-	margin-bottom: 25vh;
+	margin-bottom: 8vh;
 }
 
 .text9 {
@@ -372,6 +427,8 @@ img {
 
 .im13 {
 	width: 80%;
+	margin-top: -15vh;
+	margin-left: 5vw;
 }
 
 .im14 {
@@ -385,8 +442,15 @@ img {
 
 .postcode {
 	opacity: 0;
+	font-size: 5vh;
+	margin-top: 2vh;
 }
 
 .image:hover .postcode {
 	opacity: 1;
+}
+
+.im3:hover .postcode {
+	opacity: 1;
+	text-align: right;
 }
