@@ -85,6 +85,10 @@ p {
 	z-index: 4;
 }
 
+.bttn-home a:hover {
+	font-style: normal;
+}
+
 .sidebar {
 	background-color: peachpuff;
 	height: 100vh;
@@ -235,8 +239,13 @@ img {
 .im4 {
 	width: 70%;
 	margin-top: -10vh;
-	margin-right: -5vw;
-	z-index: -1;	
+	margin-right: -5vw;	
+}
+
+.toptext {
+	position: relative;
+	z-index: 6;
+	pointer-events: none;
 }
 
 .im5 {
@@ -354,8 +363,11 @@ img {
 }
 
 .im12 {
-	width: 80%;
-	margin-top: -15vh;
+	width: 30%;
+	margin-top: -10vh;
+	margin-left: 10vw;
+	margin-bottom: -10vh;
+	z-index: -1;
 }
 
 .im13 {
@@ -364,6 +376,17 @@ img {
 
 .im14 {
 	width: 70%;
-	margin-right: -18vw;
+	margin-right: -10vw;
 }
 
+.text9 {
+	margin-top: -12vh;
+}
+
+.postcode {
+	opacity: 0;
+}
+
+.image:hover .postcode {
+	opacity: 1;
+}
