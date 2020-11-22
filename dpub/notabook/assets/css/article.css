@@ -16,194 +16,6 @@ body {
 	font-style: normal;
 }
 
-
-
-
-/*HEADINGS AND INTRODUCTION*/
-
-h1 {
-	font-size: 14.8vh;
-	text-align: left;
-	font-family: lft-etica-compressed, sans-serif;
-	color: blue;
-	margin-bottom: 10vh;
-}
-
-h2 {
-	text-align: left;
-	margin-top: 2vh;
-	color: blue;
-	font-family: arial;
-	font-size: 2.5vh;
-}
-
-h3 {
-	text-align: center;
-	color: blue;
-	font-family: arial;
-	font-size: 3vh;
-	margin-top: 25vh;
-	margin-bottom: 20vh;
-}
-
-h4 {
-	text-align: right;
-	margin-right: 3vw;
-	margin-top: 4vh;
-	margin-bottom: 15vh;
-	color: blue;
-	font-family: arial;
-	font-size: 2.5vh;
-}
-
-.margin {
-	width: 70%;
-	margin: auto;
-}
-
-.content {
-	width: 100%;
-}
-
-.mainimage {
-	width: 100%;
-	margin-left: 0px;
-	margin-bottom: 10vh;
-}
-
-
-/*WIDTH VALUES*/
-.width1 {
-	width: 35%
-}
-
-.width2 {
-	width: 35%
-	
-}
-
-
-
-/*CONTENT*/
-
-.intro {
-	display: flex;
-	flex-wrap: wrap;
-	margin-top: 2vh;
-	margin-left: 15vw;
-	margin-right: 15vw;
-}
-
-.sidenote {
-	font-family: lft-etica, sans-serif;
-	font-weight: 500;
-	font-style: normal;
-	font-size: 4vh;
-	line-height: 4.5vh;
-	text-indent: 5vw;
-}
-
-.middleleft {
-	margin-top: 5vh;
-	margin-left: 15vw;
-	margin-right: 50vw;
-}
-
-.middle {
-	margin-left: 51vw;
-	margin-right: 15vw;
-	margin-top: -27vh;
-}
-
-.w1of2 {
-	width: 50%;
-}
-
-.text {
-	font-family: lft-etica, sans-serif;
-	font-weight: 300;
-	font-style: normal;
-	font-size: 3vh;
-	line-height: 3.5vh;
-	text-indent: 5vw;
-}
-
-.pullquote {
-	font-family: lft-etica, sans-serif;
-	font-weight: 600;
-	font-style: italic;
-	color: blue;
-	font-size: 4vh;
-	line-height: 5vh;
-}
-
-.one {
-	margin-left: 15vw;
-	margin-right: 32.5vw;
-	margin-top: 5vh;
-	margin-bottom: 5vh;
-}
-
-.two {
-	margin-left: 32.5vw;
-	margin-right: 15vw;
-	margin-top: 8vh;
-	margin-bottom: 8vh;
-}
-
-.centre {
-	margin-left: 32.5vw;
-	margin-right: 32.5vw;
-	margin-bottom: 3vh;
-}
-
-.slab {
-	margin-left: 32.5vw;
-	margin-right: 15vw;
-	margin-bottom: 10vh;
-}
-
-.full {
-	margin-left: 15vw;
-	margin-right: 15vw;
-	margin-top: 3vh;
-}
-
-.end {
-	margin-left: 32.5vw;
-	margin-right: 32.5vw;
-	margin-top: 5vh;
-}
-
-.pic1 {
-
-}
-
-.pic2 {
-
-}
-
-a:link {
-	text-decoration: none;
-	color: black;
-}
-
-a:visited {
-	text-decoration: none;
-	color: black;
-}
-
-a:hover {
-	text-decoration: none;
-	cursor: pointer;
-	color: black;
-}
-
-a:active {
-	text-decoration: none;
-	color: black;
-}
-
 .button:hover {
 	cursor: pointer;
 }
@@ -274,6 +86,178 @@ a:active {
 	border: none;
 }
 
+
+
+
+
+/*HEADINGS AND INTRODUCTION*/
+
+h1 {
+	font-size: 14.8vh;
+	text-align: left;
+	font-family: lft-etica-compressed, sans-serif;
+	color: blue;
+	margin-bottom: 10vh;
+}
+
+h2 {
+	text-align: left;
+	margin-top: 2vh;
+	color: blue;
+	font-family: arial;
+	font-size: 2.5vh;
+}
+
+h3 {
+	text-align: center;
+	color: blue;
+	font-family: arial;
+	font-size: 3vh;
+	margin-top: 25vh;
+	margin-bottom: 20vh;
+}
+
+h4 {
+	text-align: right;
+	margin-right: 3vw;
+	margin-top: 4vh;
+	margin-bottom: 15vh;
+	color: blue;
+	font-family: arial;
+	font-size: 2.5vh;
+}
+
+.margin {
+	width: 70%;
+	margin: auto;
+}
+
+.content {
+	width: 100%;
+}
+
+.mainimage {
+	width: 100%;
+	margin-left: 0px;
+	margin-bottom: 10vh;
+}
+
+
+
+
+
+/*WIDTH VALUES*/
+.width1 {
+	width: 50%;
+}
+
+.width2 {
+	width: 75%;
+}
+
+.width3 {
+	width: 100%;
+}
+
+
+
+
+
+/*LINKS*/
+a:link {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: none;
+	cursor: pointer;
+	color: black;
+}
+
+a:active {
+	text-decoration: none;
+	color: black;
+}
+
+
+
+
+
+/*CONTENT*/
+
+.intro {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 2vh;
+}
+
+.note {
+	font-family: lft-etica, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 2.5vh;
+	line-height: 4.5vh;
+	text-indent: 5vw;
+	padding: 4vw;
+}
+
+.text {
+	font-family: lft-etica, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 2vh;
+	line-height: 3.5vh;
+	text-indent: 5vw;
+	padding: 4vw;
+}
+
+.quote {
+	font-family: lft-etica, sans-serif;
+	font-weight: 600;
+	font-style: italic;
+	color: blue;
+	font-size: 3vh;
+	line-height: 5vh;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+}
+
+.center {
+	margin-left: 17.5vw;
+}
+
+.slab {
+	margin-left: 17.5vw;
+	margin-bottom: 10vh;
+}
+
+.pic1 {
+	width: 100%;
+	max-width: 70vw;
+	margin-bottom: 10vh;
+}
+
+.right {
+	margin-left: 36vw;
+	margin-top: -27vh;
+	width: 100%;
+}
+
+.final {
+	margin-left: 17.5vw;
+	width: 100%;
+}
+
+.full {
+	margin-left: 17.5vw;
+	padding-left: 0vw;
+}
 
 
 

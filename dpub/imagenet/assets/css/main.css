@@ -33,7 +33,6 @@ body {
 }
 
 .bttn-dp {
-	text-decoration: none;
 	color: white;
 }
 
@@ -188,8 +187,25 @@ body {
 	width: 100%;
 }
 
-.a:link {
+a:link {
 	text-decoration: none;
+	color: white;
+}
+
+a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	text-decoration: none;
+	color: white;
+	font-style: italic;
+}
+
+a:active {
+	text-decoration: none;
+	color: white;
 }
 
 /*MORE TAB*/
