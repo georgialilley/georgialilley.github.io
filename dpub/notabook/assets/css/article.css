@@ -3,17 +3,34 @@ body {
 	font-family: arial;
 }
 
+
+/*TOOLBAR*/
+.button {
+	color: blue;
+	position: fixed;
+	left: 2vw;
+	top: 3vh;
+	font-size: 5vh;
+	font-family: lft-etica, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+}
+
+
+
+
+/*HEADINGS AND INTRODUCTION*/
+
 h1 {
-	font-size: 15vh;
-	text-align: center;
+	font-size: 14.8vh;
+	text-align: left;
 	font-family: lft-etica-compressed, sans-serif;
 	color: blue;
-	margin-bottom: 2vh;
+	margin-bottom: 10vh;
 }
 
 h2 {
 	text-align: left;
-	margin-left: 15vw;
 	margin-top: 2vh;
 	color: blue;
 	font-family: arial;
@@ -39,138 +56,35 @@ h4 {
 	font-size: 2.5vh;
 }
 
-.title {
-	text-align: right;
-	margin-right: 3vw;
-	margin-top: 3vh;
+.margin {
+	width: 70%;
+	margin: auto;
 }
 
-.plus {
-	font-size: 30vh;
-	position: fixed;
-	top: -40px;
-	left: 40px;	
+.content {
+	width: 100%;
 }
 
-.plus.active {
-	display: none;
+.mainimage {
+	width: 100%;
+	margin-left: 0px;
+	margin-bottom: 10vh;
 }
 
-.plus:hover {
-	cursor: pointer;
+
+/*WIDTH VALUES*/
+.width1 {
+	width: 35%
 }
 
-.minus {
-	display: none;
+.width2 {
+	width: 35%
+	
 }
 
-.minus.active {
-	font-size: 30vh;
-	position: fixed;
-	top: -40px;
-	left: 40px;	
-	color: blue;
-}
 
-.options {
-	position: fixed;
-	bottom: 0px;
-	left: -40vw;
-	transition: 1s;
-}
 
-.options.active {
-	position: fixed;
-	bottom: 0px;
-	left: 0px;
-	transition: 1s;
-}
-
-.tab {
-	text-align: left;
-	padding: 2vh;
-	margin-left: 2vw;
-	color: blue;
-	font-size: 15vh;
-	text-align: center;
-	font-family: lft-etica-compressed, sans-serif;
-	margin-bottom: 2vh;
-}
-
-.note1 {
-	visibility: hidden;
-	position: fixed;
-	bottom: 0px;
-	right: 0px;
-	width: 28vw;
-	color: black;
-	font-family: lft-etica, sans-serif;
-	font-weight: 300;
-	font-style: normal;
-	font-size: 3vh;
-	line-height: 3.5vh;
-	text-align: left;
-	margin: 5vh;
-}
-
-.note1.active {
-	visibility: visible;
-}
-
-.note2 {
-	visibility: hidden;
-	position: fixed;
-	bottom: 0px;
-	right: 0px;
-	width: 28vw;
-	color: black;
-	font-family: lft-etica, sans-serif;
-	font-weight: 300;
-	font-style: normal;
-	font-size: 3vh;
-	line-height: 3.5vh;
-	text-align: left;
-	margin: 5vh;
-}
-
-.note2.active {
-	visibility: visible;
-}
-
-.note3 {
-	visibility: hidden;
-	position: fixed;
-	bottom: 0px;
-	right: 0px;
-	width: 28vw;
-	color: black;
-	font-family: lft-etica, sans-serif;
-	font-weight: 300;
-	font-style: normal;
-	font-size: 3vh;
-	line-height: 3.5vh;
-	text-align: left;
-	margin: 5vh;
-}
-
-.note3.active {
-	visibility: visible;
-}
-
-.point {
-	padding-bottom: 2vh; 
-}
-
-.button {
-	color: blue;
-	position: fixed;
-	left: 2vw;
-	top: 3vh;
-	font-size: 5vh;
-	font-family: lft-etica, sans-serif;
-	font-weight: 600;
-	font-style: normal;
-}
+/*CONTENT*/
 
 .intro {
 	display: flex;
@@ -261,22 +175,12 @@ h4 {
 	margin-top: 5vh;
 }
 
-.banner {
-	width: 100%;
-}
-
 .pic1 {
 
 }
 
 .pic2 {
 
-}
-
-img {
-	width: 70%;
-	margin-left: 15vw;
-	margin-bottom: 5vh;
 }
 
 a:link {
@@ -317,6 +221,7 @@ a:active {
 	position: fixed;
 	padding: 3vh;
 	transition: 1s;
+/*	overflow: scroll;*/
 }
 
 .sidebar.active {
@@ -331,7 +236,7 @@ a:active {
 	font-size: 2.5vh;
 	text-align: right;
 	margin-top: 1vh;
-	margin-bottom: 18vh;
+	margin-bottom: 15vh;
 }
 
 .bttn {
@@ -343,7 +248,7 @@ a:active {
 }
 
 .bttn-about {
-	margin-bottom: 8vh;
+	margin-bottom: 5vh;
 }
 
 .btn {

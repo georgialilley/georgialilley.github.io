@@ -1,0 +1,53 @@
+.title {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 10vw;
+	text-align: center;
+	margin-top: 5vh;
+}
+
+.container {
+	width: 100vw;
+	height: 20vh;
+	background-color: yellow;
+	position: fixed;
+	bottom: 10vh;
+	left: 0px;
+}
+
+.banner {
+	font-family: times;
+	font-style: italic;
+	font-size: 6vw;
+	/*text-align: center;*/
+	z-index: 10;
+	padding-top: 4vh;
+	animation: scrolling 10s infinite;
+	animation-timing-function: linear;
+	overflow: hidden;
+	width: 100%;
+	max-width: 1200px;
+}
+
+@keyframes scrolling {
+	0% {
+		margin-left: 110vw;
+	}
+	100% {
+		margin-left: -75vw;
+	}
+}
+
+.mada {
+	font-family: arial black;
+	font-size: 25vw;
+	color: red;
+/*	transform: rotate(25deg);*/
+	filter:blur(12px);
+	position: fixed;
+	left: 12vw;
+	top: 8vh;
+	z-index: -1;
+	letter-spacing: 3vw;
+	opacity: 80%;
+}
