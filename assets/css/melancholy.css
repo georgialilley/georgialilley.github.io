@@ -1,6 +1,7 @@
 body {
 	font-size: 7vh;
 	font-family: times;
+	cursor: cell;
 }
 
 h1 {
@@ -43,6 +44,7 @@ h4 {
 	width: 50%;
 	display: flex;
 	flex-wrap: wrap;
+	background-color: white;
 }
 
 .dynamic {
@@ -67,19 +69,20 @@ h4 {
 
 .caption {
 	width: 40%;
-	transition: 3s;
+	transition: 0.5s;
 	font-size: 4vh;
-	margin-left: 2vw;
-	margin-top: 2vh;
 	position: fixed;
-	top: 13vh;
-	left: -50vw;
+	top: 2vh;
+	left: 2vw;
+	z-index: -1;
+	visibility: hidden;
 }
 
 .caption.active {
-	transition: 1.5s;
-	top: 13vh;
-	left: 0.3vw;
+	transition: 0.5s;
+	top: 16vh;
+	left: 2vw;
+	visibility: visible;
 }
 
 .bttn-close {
@@ -209,6 +212,7 @@ img:hover {
   width: 100vw;
   display: flex;
   flex-wrap: wrap;
+  background-color: white;
 }
 
 .col {
@@ -453,4 +457,12 @@ img:hover {
 .im3:hover .postcode {
 	opacity: 1;
 	text-align: right;
+}
+
+.content1 {
+	background-color: white;
+}
+
+.content2 {
+	background-color: white;
 }
