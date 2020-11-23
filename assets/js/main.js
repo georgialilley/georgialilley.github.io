@@ -13,4 +13,9 @@ $(document).ready(function(){
 		$('.caption').toggleClass('active');
 	}); 
 
+	$('.col1').hover(function(){
+		$('.arrow').toggleClass('active');
+		$('.col2').toggleClass('active');
+	}); 
+
 });	

@@ -1,20 +1,25 @@
 body {
 	font-size: 7vh;
 	font-family: times;
+	cursor: cell;
 }
 
 h1 {
-	font-size: 13vh;
+	font-family: freight-text-pro, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 10vh;
 	text-align: left;
 	margin-top: 2vh;
 	margin-left: 2vw;
 }
 
 h2 {
-	font-style: italic;
+	font-family: freight-text-pro, serif;
+	font-weight: 400;
 	font-size: 5vh;
 	text-align: left;
-	margin-top: 32vh;
+	margin-top: 25vh;
 	margin-left: 2.5vw;
 }
 
@@ -26,7 +31,45 @@ h3 {
 	margin-top: 3vh;
 }
 
+h4 {
+	font-family: freight-text-pro, serif;
+	font-weight: 400;
+	font-size: 4.5vh;
+	display: table;
+    margin: 0 auto;
+    margin-bottom: 10vh;
+	margin-top: 3vh;
+}
+
+.heading {
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: white;
+}
+
+.caption {
+	width: 40%;
+	transition: 0.5s;
+	font-size: 4vh;
+	position: fixed;
+	top: 2vh;
+	left: 2vw;
+	z-index: -1;
+	visibility: hidden;
+}
+
+.caption.active {
+	transition: 0.5s;
+	top: 16vh;
+	left: 2vw;
+	visibility: visible;
+}
+
 .bttn-close {
+	font-family: freight-text-pro, serif;
+	font-weight: 400;
+	font-style: normal;	
 	font-size: 4vh;
 	text-align: right;
 	margin-top: 3vh;
@@ -35,14 +78,21 @@ h3 {
 }
 
 p {
-	font-size: 3vh;
+	font-family: freight-text-pro, serif;
+	font-weight: 400;
+	font-style: normal;	
+	font-size: 2.5vh;
 	line-height: 3.5vh;
 	margin-left: 2.5vw;
 	margin-right: 2.5vw;
 	margin-top: 2vh;
+	margin-bottom: 3vh;
 }
 
 .bttn-about {
+	font-family: freight-text-pro, serif;
+	font-weight: 400;
+	font-style: normal;
 	font-size: 6vh;
 	text-align: right;
 	margin-top: 3vh;
@@ -51,13 +101,13 @@ p {
 	right: 0vw;
 	top: 0vh;
 	cursor: pointer;
-}
-
-.bttn-about:hover {
-	font-style: italic;
+	z-index: 3;
 }
 
 .bttn-home {
+	font-family: freight-text-pro, serif;
+	font-weight: 400;
+	font-style: normal;
 	font-size: 6vh;
 	text-align: right;
 	margin-top: 3vh;
@@ -68,34 +118,95 @@ p {
 	cursor: pointer;
 	text-decoration: none;
 	color: black;
+	z-index: 4;
+}
+
+.bttn-home a:hover {
+	font-style: normal;
 }
 
 .sidebar {
-	background-color: peachpuff;
+	background-color: black;
 	height: 100vh;
 	width: 33%;
 	position: fixed;
 	top: 0vh;
 	right: -50vw;
 	transition: 1.5s;
-	z-index: 1;
+	z-index: 100;
+	color: white;
+	overflow: scroll;
 }
 
 .sidebar.active {
-	background-color: peachpuff;
-	height: 100vh;
-	width: 33%;
 	position: fixed;
 	top: 0vh;
 	right: 0vw;
 	transition: 1.5s;
 }
 
+/*.bttn {
+	font-size: 13vh;
+	margin-right: 2vw;
+}*/
+
 .container {
 	display: flex;
 	flex-wrap: wrap;
-	margin-left: 2vw;
-	margin-top: 33vh;
+	margin-top: 10vh;
+	width: 80%;
+}
+
+.footnote {
+	display: flex;
+	flex-wrap: wrap;
+	width: 80%;
+	margin-top: 43vh;
+}
+
+.col1 {
+	width: 5%;
+	margin-left: 3vw;
+}
+
+.arrow {
+	width: 50%;
+	transform: rotate(45deg);
+	transition: 1s;
+}
+
+.arrow.active {
+	transform: rotate(90deg);
+	transition: 1s;
+}
+
+.col2 {
+	width: 75%;
+	font-family: freight-text-pro, serif;
+	font-weight: 400;
+	font-style: italic;	
+	font-size: 3vh;
+	text-align: left;
+	opacity: 0;
+	transition: 1s;
+	margin-left: 1vw;
+}
+
+.col2.active {
+	opacity: 1;
+	transition: 1s;
+}
+
+.background {
+	width: 25%;
+	position: fixed;
+	right: 20vw;
+	top: 15vh;
+	z-index: -1;
+}
+
+.tree {
+	width: 100%;
 }
 
 a:link {
@@ -117,11 +228,6 @@ a:hover {
 a:active {
 	text-decoration: none;
 	color: black;
-}
-
-.bttn {
-	font-size: 13vh;
-	margin-right: 2vw;
 }
 
 
