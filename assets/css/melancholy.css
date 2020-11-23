@@ -199,6 +199,7 @@ img:hover {
   width: 33%;
   display: flex;
   flex-wrap: wrap;
+  background-color: white;
   /*border: black 1px solid;  */
 }
 
