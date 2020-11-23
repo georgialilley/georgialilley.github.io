@@ -25,4 +25,12 @@ $(document).ready(function(){
 		$('.note3').toggleClass('active');
 	});  
 
+	$('.circle').hover(function(){
+		$('.col3').toggleClass('active');
+	}); 
+
+	$('.circle2').hover(function(){
+		$('.text2').toggleClass('active');
+	}); 
+
 });	

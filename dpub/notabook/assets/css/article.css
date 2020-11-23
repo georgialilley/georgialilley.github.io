@@ -6,14 +6,9 @@ body {
 
 /*TOOLBAR*/
 .button {
-	color: blue;
 	position: fixed;
 	left: 2vw;
 	top: 3vh;
-	font-size: 5vh;
-	font-family: lft-etica, sans-serif;
-	font-weight: 600;
-	font-style: normal;
 }
 
 .button:hover {
@@ -51,16 +46,16 @@ body {
 	margin-bottom: 15vh;
 }
 
+.bttn-home {
+	margin-bottom: 5vh;
+}
+
 .bttn {
 	font-family: lft-etica, sans-serif;
 	font-weight: 300;
 	font-style: normal;
 	font-size: 3.5vh;
 	line-height: 4.5vh;
-}
-
-.bttn-about {
-	margin-bottom: 5vh;
 }
 
 .btn {
@@ -97,7 +92,6 @@ h1 {
 	text-align: left;
 	font-family: lft-etica-compressed, sans-serif;
 	color: blue;
-	margin-bottom: 10vh;
 }
 
 h2 {
@@ -113,8 +107,21 @@ h3 {
 	color: blue;
 	font-family: arial;
 	font-size: 3vh;
-	margin-top: 25vh;
-	margin-bottom: 20vh;
+	border: 5px solid blue;
+	margin: 100px;
+	padding: 20px;
+	border-radius: 30px;
+}
+
+.tabs {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.column {
+	width: 50%;
+	justify-content: center;
 }
 
 h4 {
@@ -125,6 +132,13 @@ h4 {
 	color: blue;
 	font-family: arial;
 	font-size: 2.5vh;
+}
+
+h5 {
+	font-size: 10vh;
+	text-align: left;
+	font-family: lft-etica-compressed, sans-serif;
+	color: blue;
 }
 
 .margin {
@@ -140,6 +154,7 @@ h4 {
 	width: 100%;
 	margin-left: 0px;
 	margin-bottom: 10vh;
+	margin-top: 10vh;
 }
 
 
@@ -237,10 +252,26 @@ a:active {
 	margin-bottom: 10vh;
 }
 
+.container {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.col {
+	width: 50%;
+}
+
 .pic1 {
 	width: 100%;
 	max-width: 70vw;
 	margin-bottom: 10vh;
+}
+
+.pic2 {
+	width: 70%;
+	margin-left: 10vw;
+	margin-top: 10vh;
 }
 
 .right {
@@ -249,8 +280,52 @@ a:active {
 	width: 100%;
 }
 
+.right2 {
+	margin-left: 36vw;
+	margin-top: -10vh;
+	width: 100%;
+}
+
+.text1 {
+	font-family: lft-etica, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 2vh;
+	line-height: 3.5vh;
+	text-indent: 5vw;
+	padding-left: 4vw;
+}
+
+.text2 {
+	visibility: hidden;
+}
+
+.text2.active {
+	visibility: visible;
+}
+
+.col3 {
+	visibility: hidden;
+}
+
+.col3.active {
+	visibility: visible;
+}
+
+.circle {
+	width: 50px;
+	margin-left: 5vw;
+}
+
+.circle2 {
+	width: 50px;
+	margin-left: 5vw;
+	margin-top: 40vh;
+}
+
 .final {
 	margin-left: 17.5vw;
+	margin-top: 10vh;
 	width: 100%;
 }
 
@@ -259,6 +334,9 @@ a:active {
 	padding-left: 0vw;
 }
 
+.side {
+	margin-left: 35vw;
+}
 
 
 
