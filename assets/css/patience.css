@@ -240,6 +240,11 @@ img {
 	opacity: 1;
 }
 
+.im7:hover .postcode {
+	opacity: 1;
+	text-align: right;
+}
+
 .im1 {
 	width: 70%;
 	margin-top: 15vh;

@@ -178,13 +178,8 @@ a:active {
 
 /*IMAGERY & CONTENT*/
 img {
-	filter: grayscale(100%);
 	display: block;
  	width: 100%;
-}
-
-img:hover {
-	filter: none;
 }
 
 .row {
