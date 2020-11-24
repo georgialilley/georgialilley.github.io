@@ -38,7 +38,7 @@ h4 {
 	display: table;
     margin: 0 auto;
     margin-bottom: 10vh;
-    margin-top: 10vh;
+    margin-top: 40vh;
 }
 
 .heading {
@@ -240,10 +240,172 @@ img {
 	opacity: 1;
 }
 
+.im5:hover .postcode {
+	opacity: 1;
+	text-align: right;
+}
+
+.im7:hover .postcode {
+	opacity: 1;
+	text-align: right;
+}
+
+.im12:hover .postcode {
+	opacity: 1;
+	text-align: right;
+}
+
 .im1 {
 	width: 60%;
-	
 }
+
+.im2 {
+	width: 90%;
+	margin-top: -60vh;
+	z-index: 1;
+}
+
+.im3 {
+	width: 70%;
+	margin-top: -30vh;
+	margin-left: -10vw;
+}
+
+.text1 {
+	font-family: freight-text-pro, serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 5vh;
+	width: 100%;
+	margin-left: -5vw;
+	margin-bottom: 15vh;
+}
+
+.text2 {
+	font-family: freight-text-pro, serif;
+	font-weight: 400;
+	letter-spacing: 10px;
+	font-size: 6vh;
+	line-height: 50px;
+	margin-top: 10vh;
+}
+
+.im4 {
+	width: 100%;
+	/*margin-right: -15vw;*/
+	z-index: 2;
+}
+
+.im5 {
+	margin-top: 20vh;
+	width: 80%;
+	margin-left: -5vw;
+}
+
+.im6 {
+	margin-top: -50vh;
+	width: 85%;
+}
+
+.text3 {
+	font-family: freight-text-pro, serif;
+	font-weight: 400;
+	font-size: 4.5vh;
+	margin-top: -25vh;
+}
+
+.im7 {
+	width: 70%;
+	margin-left: -25vw;
+	margin-bottom: -5vh;
+}
+
+.im8 {
+	width: 100%;
+	margin-top: -10vh;
+	margin-right: -15vw;
+}
+
+.text4 {
+	font-family: freight-text-pro, serif;
+	font-weight: 400;
+	font-size: 5vh;
+	width: 70%
+}
+
+.im9 {
+	margin-top: 20vh;
+}
+
+.im10 {
+	margin-top: -15vh;
+	width: 80%;
+	z-index: 3;
+}
+
+.im11 {
+	width: 150%;
+	margin-left: -15vw;
+	margin-bottom: -40vh;
+}
+
+.im12 {
+	width: 80%;
+	margin-left: -15vw;
+}
+
+.row7 {
+	margin-top: 50vh;
+}
+
+.text5 {
+	width: 120%;
+	font-family: freight-text-pro, serif;
+	font-weight: 400;
+	font-size: 4.5vh;
+	margin-right: -17vw;
+	margin-top: -5vh;
+}
+
+.text7 {
+	width: 120%;
+	font-family: freight-text-pro, serif;
+	font-weight: 400;
+	font-size: 4.5vh;
+	margin-right: -17vw;
+	text-align: right;
+	margin-top: -30vh;
+	z-index: 6;
+}
+
+.im13 {
+	width: 100%;
+	margin-bottom: 10vh;
+}
+
+.im14 {
+	width: 80%;
+	margin-bottom: -10vh;
+}
+
+.im15 {
+	width: 90%;
+	margin-top: -7vh;
+}
+
+.im16 {
+	width: 80%;
+	margin-left: -10vw;
+	margin-bottom: -30vh;
+}
+
+.im17 {
+	width: 70%;
+	margin-top: 20vh;
+}
+
+
+
 
 
 
